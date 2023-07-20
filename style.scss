@@ -122,6 +122,21 @@ img {
   color: #fff;
 }
 
+// blur-header
+.blur-header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.3);
+  backdrop-filter: blur(24px);
+  --webkit-backdrop-filter: blur(24px);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 // header
 
 .header {
@@ -232,7 +247,6 @@ img {
   &__container {
     position: relative;
     padding-top: 3rem;
-    row-gap: 3rem;
   }
   &__data {
     text-align: center;
@@ -283,23 +297,23 @@ img {
     );
   }
   .button {
-    background: hsla(0, 0%, 100%, .2);
+    background: hsla(0, 0%, 100%, 0.2);
     padding: 1.25rem 1.5rem;
     color: $text-color;
     display: inline-flex;
-    align-items: center;  
-    column-gap: .5rem;
+    align-items: center;
+    column-gap: 0.5rem;
     font-family: $second-font;
     font-weight: $font-semi-bold;
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     i {
-      transition: transform .4s;
+      transition: transform 0.4s;
       font-weight: initial;
-      margin-top: .5rem;
+      margin-top: 0.5rem;
     }
     &:hover i {
-      transform: translateX(.25rem);
+      transform: translateX(0.25rem);
     }
   }
 }
