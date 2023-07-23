@@ -16,9 +16,9 @@
             <li class="nav__item">
               <a class="nav__link" href="#home">Home</a>
             </li>
-            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Popular</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Explore</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#popular">Popular</a></li>
+            <li class="nav__item"><a class="nav__link" href="#explore">Explore</a></li>
           </ul>
           <!-- close button -->
           <div class="nav__close" id="nav-close">
@@ -42,7 +42,7 @@
               Explore <br />
               The World
             </h1>
-            <path class="home__description">
+            <p class="home__description">
               Live the trips exploring the world, discover paradises, islands,
               mountains and much more, get your trip now.
             </p>
@@ -78,9 +78,198 @@
           </div>
         </div>
       </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              Learn More <br> About Travel
+            </h2>
+            <p class="about__description">
+              All the trips around the world are a great 
+              pleasure and happiness for anyone, enjoy 
+              the sights when you travel the world. Travel 
+              safely and without worries, get your trip and 
+              explore the paradises of the world.
+            </p>
+            <a class="button" href="#">Explore Travel<i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"></path><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z" fill="rgba(255,255,255,1)"></path></svg></i></a>
+          </div>
+          <div class="about__image">
+            <img class="about__img" src="images/about-beach.jpg" alt="foto">
+            <div class="about__shadow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular section" id="popular">
+        <h2 class="section__title">
+          Enjoy The Beauty <br>
+          Of The World
+        </h2>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="popular__image">
+              <img class="popular__img" src="images/popular-mountain.jpg" alt="foto">
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">
+              Logan Mountain
+            </h2>
+            <div class="popular__location">
+              <i><img src="images/icon/map-pin-line.png" alt=""></i>
+              <span>Canadá</span>
+            </div>
+          </article>
+          <article class="popular__card">
+            <div class="popular__image">
+              <img class="popular__img" src="images/popular-forest.jpg" alt="foto">
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">
+              Spike Forest
+            </h2>
+            <div class="popular__location">
+              <i><img src="images/icon/map-pin-line.png" alt=""></i>
+              <span>Irland</span>
+            </div>
+          </article>
+          <article class="popular__card">
+            <div class="popular__image">
+              <img class="popular__img" src="images/popular-lake.jpg" alt="foto">
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">
+              Garda Lake
+            </h2>
+            <div class="popular__location">
+              <i><img src="images/icon/map-pin-line.png" alt=""></i>
+              <span>Italy</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="explore section" id="explore">
+        <div class="explore__container">
+          <div class="explore__image">
+            <img class="explore__img" src="images/explore-beach.jpg" alt="foto" >
+            <div class="explore__shadow"></div>
+          </div>
+          <div class="explore__content container grid">
+            <div class="explore__data">
+              <h2 class="section__title">
+                Explore The <br> 
+                Best Paradises
+              </h2>
+              <p class="explore__description">
+                Exploring paradises such as islands and 
+                valleys when traveling the world is one of 
+                the greatest experiences when you travel, it 
+                offers you harmony and peace and you 
+                can enjoy it with great comfort.
+              </p>
+            </div>
+            <div class="explore__user">
+              <img class="explore__perfil" src="images/explore-perfil.png" alt="foto">
+              <div class="explore__name">Paul Jeams</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="join section">
+        <div class="join__container container grid">
+          <div class="join__data">
+            <h2 class="section__title">
+              Your Journey <br>
+              Starts Here
+            </h2>
+            <p class="join__description">Get up to date with the latest travel and information from us.</p>
+            <form class="join__form" action="">
+              <input class="join__input" type="text" placeholder="Enter your email">
+              <button class="join__button button">
+                Subscribe Our Newsletter <i><img src="images/icon/arrow-right-line.png" alt="foto"></i>
+              </button>
+            </form>
+          </div>
+          <div class="join__image">
+            <img class="join__img" src="images/join-island.jpg" alt="foto">
+            <div class="join__shadow"></div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a class="footer__logo" href="#">Travel</a>
+            <p class="footer__description">
+              Travel with us and explore <br> 
+              the world without limits.
+            </p>
+          </div>  
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">About</h3>
+              <ul class="footer__links">
+                <li><a class="footer__link" href="#">About Us</a></li>
+                <li><a class="footer__link" href="#">Features</a></li>
+                <li><a class="footer__link" href="#">News & Blog</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__links">
+                <li><a class="footer__link" href="#">FAQs</a></li>
+                <li><a class="footer__link" href="#">History</a></li>
+                <li><a class="footer__link" href="#">Testimonials</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Contact</h3>
+              <ul class="footer__links">
+                <li><a class="footer__link" href="#">Call Center</a></li>
+                <li><a class="footer__link" href="#">Support Center</a></li>
+                <li><a class="footer__link" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__links">
+                <li><a class="footer__link" href="#">Privacy Policy</a></li>
+                <li><a class="footer__link" href="#">Terms & Services</a></li>
+                <li><a class="footer__link" href="#">Payments</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__group">
+          <div class="footer__social">
+            <a class="footer__social-link" href="https://www.facebook.com/" target="_blank">
+              <i><img src="images/icon/facebook.png" alt="foto"></i>
+            </a>
+            <a class="footer__social-link" href="https://www.instagram.com/" target="_blank">
+              <i><img src="images/icon/instagram.png" alt="foto"></i>
+            </a>
+            <a class="footer__social-link" href="https://twitter.com/" target="_blank">
+              <i><img src="images/icon/twitter.png" alt="foto"></i>
+            </a>
+            <a class="footer__social-link" href="https://www.youtube.com/" target="_blank">
+              <i><img src="images/icon/youtube.png" alt="foto"></i>
+            </a>
+          </div>
+          <span class="footer__copy">
+            &#169; Copyright Alex Web. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <a class="scrollup" id="scroll-up" href="#">
+      <i><img src="images/icon/arrow-up.png" alt="icon"></i>
+    </a>
 
     <script src="js/main.js"></script>
   </body>
